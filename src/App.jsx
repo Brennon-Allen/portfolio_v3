@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import profilePicture from "./assets/Pro-pic-with-border.png";
+import profilePicture from "./assets/Pro-pic.png";
 import allenITFlyer from "./assets/Flyer.jpg";
 import VideoPlayer from "./components/VideoPlayer";
 import codeTailorsDemo from "./assets/Code Tailors Demo.mp4";
