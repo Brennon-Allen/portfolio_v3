@@ -22,7 +22,7 @@ function App() {
       <div>
         <img src={profilePicture} alt="image" width={"265px"} />
         <h2>
-          Hi, I'm <span>Brennon</span>.
+          Hello, I'm <span>Brennon</span>.
         </h2>
         <p>
           Welcome to my portfolio, created with <strong>Vite</strong> and
