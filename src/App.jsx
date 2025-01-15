@@ -10,6 +10,11 @@ import stcDemo from "./assets/STC Demo.mp4";
 import calculationsDemo from "./assets/Calculator Demo.mp4";
 import jkrDesign from "./assets/JKR1.jpg";
 import fbiDemo from "./assets/FBI API Demo.mp4";
+import stcThumbnail from "./assets/STC Thumbnail.jpeg";
+import ctThumbnail from "./assets/CT Thumbnail.jpeg";
+import tdThumbnail from "./assets/TD Thumbnail.jpeg";
+import fbiThumbnail from "./assets/FBI Thumbnail.jpeg";
+import calcThumbnail from "./assets/Calculations Thumbnail.jpeg";
 
 function App() {
   return (
@@ -41,33 +46,53 @@ function App() {
               <strong>#1</strong> Basic HTML/CSS/JavaScript Website Demo (click
               to play/pause)
             </p>
-            <VideoPlayer videoFile={stcDemo} fileType={"video/mp4"} />
+            <VideoPlayer
+              videoFile={stcDemo}
+              fileType={"video/mp4"}
+              thumbnail={stcThumbnail}
+            />
           </div>
           <div>
             <p>
               <strong>#2</strong> Basic HTML/CSS/JavaScript Website Demo (click
               to play/pause)
             </p>
-            <VideoPlayer videoFile={codeTailorsDemo} fileType={"video/mp4"} />
+            <VideoPlayer
+              videoFile={codeTailorsDemo}
+              fileType={"video/mp4"}
+              thumbnail={ctThumbnail}
+            />
           </div>
           <div>
             <p>
               <strong>#3</strong> Basic HTML/CSS/JavaScript Website Demo (click
               to play/pause)
             </p>
-            <VideoPlayer videoFile={teamDominionDemo} fileType={"video/mp4"} />
+            <VideoPlayer
+              videoFile={teamDominionDemo}
+              fileType={"video/mp4"}
+              thumbnail={tdThumbnail}
+            />
           </div>
           <div>
             <p>
               <strong>#4</strong> Basic Calculations Demo (click to play/pause)
             </p>
-            <VideoPlayer videoFile={calculationsDemo} fileType={"video/mp4"} />
+            <VideoPlayer
+              videoFile={calculationsDemo}
+              fileType={"video/mp4"}
+              thumbnail={calcThumbnail}
+            />
           </div>
           <div>
             <p>
               <strong>#5</strong> FBI API Integration Demo (click to play/pause)
             </p>
-            <VideoPlayer videoFile={fbiDemo} fileType={"video/mp4"} />
+            <VideoPlayer
+              videoFile={fbiDemo}
+              fileType={"video/mp4"}
+              thumbnail={fbiThumbnail}
+            />
           </div>
           <div>
             <p>

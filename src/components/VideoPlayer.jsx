@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 
-const VideoPlayer = ({ videoFile, fileType }) => {
+const VideoPlayer = ({ videoFile, fileType, thumbnail }) => {
   const videoRef = useRef(null);
 
   const handlePlayPause = () => {
@@ -20,6 +20,7 @@ const VideoPlayer = ({ videoFile, fileType }) => {
         width="325px"
         onClick={handlePlayPause}
         style={{ cursor: "pointer" }}
+        poster={thumbnail} // Replace with your thumbnail path
       >
         <source src={videoFile} type={fileType} />
         Your browser does not support the video tag.
