@@ -17,7 +17,7 @@ const VideoPlayer = ({ videoFile, fileType }) => {
     <div>
       <video
         ref={videoRef}
-        width="350px"
+        width="325px"
         onClick={handlePlayPause}
         style={{ cursor: "pointer" }}
       >
