@@ -44,7 +44,7 @@ function App() {
           <div>
             <p>
               <strong>#1</strong> Basic HTML/CSS/JavaScript Website Demo (click
-              to play/pause)
+              to play)
             </p>
             <VideoPlayer
               videoFile={stcDemo}
@@ -55,7 +55,7 @@ function App() {
           <div>
             <p>
               <strong>#2</strong> Basic HTML/CSS/JavaScript Website Demo (click
-              to play/pause)
+              to play)
             </p>
             <VideoPlayer
               videoFile={codeTailorsDemo}
@@ -66,7 +66,7 @@ function App() {
           <div>
             <p>
               <strong>#3</strong> Basic HTML/CSS/JavaScript Website Demo (click
-              to play/pause)
+              to play)
             </p>
             <VideoPlayer
               videoFile={teamDominionDemo}
@@ -76,7 +76,7 @@ function App() {
           </div>
           <div>
             <p>
-              <strong>#4</strong> Basic Calculations Demo (click to play/pause)
+              <strong>#4</strong> Basic Calculations Demo (click to play)
             </p>
             <VideoPlayer
               videoFile={calculationsDemo}
@@ -86,7 +86,7 @@ function App() {
           </div>
           <div>
             <p>
-              <strong>#5</strong> FBI API Integration Demo (click to play/pause)
+              <strong>#5</strong> FBI API Integration Demo (click to play)
             </p>
             <VideoPlayer
               videoFile={fbiDemo}
